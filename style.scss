@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+ul, li, div, body, main, section, aside, article, header, footer, nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    border: none;
+    background-color: initial;
+    cursor: pointer;
+}
+
+a[href], li{
+    text-decoration: none;
+    color: #fff;
+}
